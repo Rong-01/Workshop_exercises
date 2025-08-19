@@ -1,4 +1,4 @@
-install.packages("rsconnect")
+#install.packages("rsconnect")
 library(rsconnect)
 rsconnect::setAccountInfo(name='rong0001', token='A31BFAAB3A1BD63AD1C93941CC41C5DF', secret='tdLPYIIzjtUMWjRQXdgYlC7UTWdNg86O/9dB+JEF')
 
@@ -6,7 +6,8 @@ rsconnect::setAccountInfo(name='rong0001', token='A31BFAAB3A1BD63AD1C93941CC41C5
 rsconnect::deployApp("Exercise_1")
 #deployApp()
 
-install.packages("shiny")
+#install.packages("shiny")
 library(shiny)
 runApp()
+
 #rsconnect::writeManifest()
